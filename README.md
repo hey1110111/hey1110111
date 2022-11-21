@@ -81,9 +81,6 @@ local WindowOptions = {
     toggle_key = Enum.KeyCode.RightShift,
     can_resize = true,
 }
-local Window = library:AddWindow(guiname, WindowOptions)
-local ItemsWindow = library:AddWindow("Items", WindowOptions)
-local MeepWindow = library:AddWindow("Meep", WindowOptions)
 local ServerDWindow = library:AddWindow("Server Destroying", WindowOptions)
 local AvatarWindow = library:AddWindow("Avatar", WindowOptions)
 
